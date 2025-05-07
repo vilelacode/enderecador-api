@@ -16,7 +16,7 @@ public class EnderecoController {
     private final EnderecoService enderecoService;
 
 
-    public EnderecoController(EnderecoService enderecoService, EnderecoMapper enderecoMapper) {
+    public EnderecoController(EnderecoService enderecoService) {
         this.enderecoService = enderecoService;
     }
 
